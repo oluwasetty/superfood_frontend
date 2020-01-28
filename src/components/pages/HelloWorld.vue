@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <router-link :to="{name: 'home'}">Go to Home</router-link>
     <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
@@ -13,7 +14,8 @@
     </ul>
     <h3>Essential Links</h3>
     <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
+    <router-link to="/foo">I dont want to eat the Food</router-link>
+      <li><a href="/foo" target="_blank" rel="noopener">New Foo</a></li>
       <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
       <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
       <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
