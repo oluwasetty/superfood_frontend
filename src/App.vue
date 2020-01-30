@@ -8,6 +8,8 @@
 
 <script>
 import "nprogress/nprogress.css";
+import 'sweetalert2/dist/sweetalert2.min.css';
+import 'cxlt-vue2-toastr/dist/css/cxlt-vue2-toastr.css'
 export default {
   name: "app",
   created: function() {

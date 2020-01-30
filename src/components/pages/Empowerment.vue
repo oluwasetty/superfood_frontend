@@ -697,9 +697,7 @@ export default {
   methods: {
     submit() {
       this.$store
-        .dispatch("empower", this.user)
-        .then(res => console.log(res))
-        .catch(err => console.log(err));
+        .dispatch("empower", this.user);
     }
     }
 };
