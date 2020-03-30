@@ -6,8 +6,8 @@
   </div>
 </template>
 <script>
-import headers from "./../sub/Header.vue";
-import footers from "./../sub/Footer.vue";
+import headers from "./../sub/AdminHeader.vue";
+import footers from "./../sub/AdminFooter.vue";
 export default {
   components: {
     headers: headers,

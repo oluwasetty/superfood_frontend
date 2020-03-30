@@ -27,7 +27,7 @@ const routes = [{
         component: Home,
         name: 'home',
         meta: {
-            layout: 'app'
+            layout: 'admin'
         }
     }, {
         path: '/student/:id',
